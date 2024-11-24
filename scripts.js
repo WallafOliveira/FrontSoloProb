@@ -1,4 +1,3 @@
-// Função para buscar os dados do backend
 async function fetchCondicoesAnormais() {
     try {
         const response = await fetch('https://backsolo2.onrender.com/api/condicoes_anormais');
@@ -16,7 +15,6 @@ async function fetchCondicoesAnormais() {
     }
 }
 
-// Função para renderizar os dados na página
 function renderCondicoes(condicoes) {
     const content = document.getElementById('content');
     content.innerHTML = '';
@@ -54,5 +52,5 @@ function renderCondicoes(condicoes) {
     });
 }
 
-// Chama a função ao carregar a página
+
 fetchCondicoesAnormais();
