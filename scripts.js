@@ -24,7 +24,7 @@ function renderCondicoes(condicoes) {
         card.className = 'card';
 
         const title = document.createElement('h2');
-        title.textContent = `Condições Anormais para o Solo ${item.id}`;
+        title.textContent = `Condições Anormais para o Solo `;
         card.appendChild(title);
 
         const table = document.createElement('table');
