@@ -39,7 +39,7 @@ function renderCondicoes(condicoes) {
             <tbody>
                 ${Object.keys(item.condicoes).map(parametro => `
                     <tr>
-                        <td>${parametro}</td>
+                        <td>${capitalize(parametro)}</td>
                         <td class="problema">${item.condicoes[parametro]}</td>
                         <td class="solucao">${item.tratamentos[parametro]}</td>
                     </tr>
@@ -52,5 +52,10 @@ function renderCondicoes(condicoes) {
     });
 }
 
+// Função para capitalizar a primeira letra de uma string
+function capitalize(str) {
+    return str.charAt(0).toUpperCase() + str.slice(1);
+}
 
+// Chamada para buscar as condições anormais
 fetchCondicoesAnormais();

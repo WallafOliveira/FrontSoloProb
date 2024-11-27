@@ -11,20 +11,17 @@ body {
     padding: 20px;
 }
 
-
 .container {
     width: 80%;
     margin: 0 auto;
     max-width: 1200px;
 }
 
-
 h1 {
     text-align: center;
     color: #2c3e50;
     margin-bottom: 30px;
 }
-
 
 .card {
     background-color: #fff;
@@ -39,7 +36,6 @@ h1 {
     font-size: 24px;
     margin-bottom: 15px;
 }
-
 
 table {
     width: 100%;
@@ -73,7 +69,6 @@ table tr:hover {
     background-color: #dcdcdc;
 }
 
-
 .problema, .solucao {
     padding: 10px;
     border-radius: 5px;
@@ -90,14 +85,12 @@ table tr:hover {
     background-color: #27ae60; 
 }
 
-
 .mensagem {
     text-align: center;
     font-size: 18px;
     margin: 20px;
     color: #e74c3c;
 }
-
 
 @media (max-width: 768px) {
     .container {
